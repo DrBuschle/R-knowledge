@@ -1,0 +1,38 @@
+comment out code
+
+- single line
+use the "#" sign to comment code (means it will not be executed)
+
+
+
+- several lines
+mark all the lines you want to comment out
+
+on Mac
+use Cmd + Shift + C to comment out the marked lines all at once 
+
+
+# line one
+# line two
+# line three
+
+
+on Windows
+use Ctrl + Shift + C to comment out the marked lines all at once
+
+# line one
+# line two
+# line three
+
+
+- special cases
+if there is a blank line between commented lines and you mark all the lines, 
+you will get more "#" and the existing ones do not dissapear when you use the key-shortcut
+this is because of the blank line. Either you fill that line with a "#", 
+or you stop before the blank line when you mark your lines
+
+# a
+
+# line one
+# line two
+# line three

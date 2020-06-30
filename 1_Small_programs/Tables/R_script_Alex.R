@@ -1,4 +1,4 @@
-# combine the xth column of a y table files in a new table 
+# combine the xth column of y table files in a new table 
 
 setwd("Your_Path")
 

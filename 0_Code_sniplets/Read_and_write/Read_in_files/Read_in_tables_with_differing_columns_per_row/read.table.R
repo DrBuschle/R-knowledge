@@ -1,11 +1,14 @@
-# Read_in_tables_with_differing_columns_per_row
+# Read in tables with differing row per column
 
 Your_Filename <- 'filename.extension'
 read_in <- read.table(Your_Filename,
                       sep = "\t",
                       header = F, 
                       col.names = paste0("V", seq_len(max(count.fields(Your_Filename)))), 
-                      fill = TRUE)
+                      fill = T)
+
+### !!! This reads in the file, but will produce the following warning:
+# "incomplete final line found by readTableHeader on Your_Filename" #
 
 
 # col.names tells read.table how to name the columns

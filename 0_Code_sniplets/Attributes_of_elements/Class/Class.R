@@ -26,3 +26,7 @@ class(Example_vector)
 # character
 Example_vector <- c("Hello", "World")
 class(Example_vector)
+
+
+# function
+class(sum)

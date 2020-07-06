@@ -11,6 +11,11 @@ examples_data
 examples_data[order(examples_data$X1), ]  # sort by column X1
 
 # sort data by several columns
-examples_data[order(examples_data$X1, examples_data$X2), ] # sort by column X2
+examples_data[order(examples_data$X1, examples_data$X2), ] # sort by column X1 and X2
+
+
+# !!!!does not work for a third column!!!!!!
+examples_data[order(examples_data$X1, examples_data$X2, examples_data$X3), ] # sort by column X1, X2, and X3
+
 
 

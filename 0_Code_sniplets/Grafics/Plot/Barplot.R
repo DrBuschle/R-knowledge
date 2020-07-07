@@ -23,7 +23,7 @@ barplot(my_matrix, col = c("green", "yellow", "red"), width = c(1, 2, 3, 4), spa
         names.arg = c("New_1", "New_2", "New_3", "New_4"))
 
 
-### besides places the bar next to each other
+### 'beside' places the bar next to each other
 
 barplot(my_matrix, col = c("green", "yellow", "red"), legend.text = c("Set 1", "Set 2", "Set 3"),
         names.arg = c("New_1", "New_2", "New_3", "New_4"), beside = T)

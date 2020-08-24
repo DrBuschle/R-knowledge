@@ -6,4 +6,4 @@ Molarity.out <- function(Mass, MolarMass, Volume){
 }
 
 
-Molarity.out (Mass = 40, MolarMass = 39.997, Volume = 0.5)
+Molarity.out (Mass = 40, MolarMass = 39.997, Volume = 0.25)
